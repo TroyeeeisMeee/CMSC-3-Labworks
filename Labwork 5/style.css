@@ -1,0 +1,41 @@
+/* 1. ELEMENT SELECTOR #1 (Category: Background & Text/Font) */
+body {
+    background-color: #f4f6f9;
+    color: #333333;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* 1. ELEMENT SELECTOR #2 (Category: Box Model/Layout) */
+hr {
+    border: 1px solid #2980b9;
+    margin-bottom: 20px;
+}
+
+/* 2. CLASS SELECTOR (Category: Box Model/Layout) */
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* 3. ID SELECTOR (Category: Text/Font) */
+#main-title {
+    font-size: 28px;
+    letter-spacing: 1px;
+}
+
+/* 4. GROUP SELECTOR (Category: Color) */
+b, strong {
+    color: #2980b9;
+}
+
+/* 5. DESCENDANT SELECTOR (Category: Text/Font) */
+p a {
+    color: #2980b9;
+    text-decoration: underline;
+}
+
+/* 6. PSEUDO-CLASS SELECTOR (Category: Color) */
+a:hover {
+    color: #1c5980;
+}
